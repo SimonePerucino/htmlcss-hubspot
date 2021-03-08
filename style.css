@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+/* immagini/colori background */
+
+.bg-celestechiaro{
+    background-color: #f4f9fd;
+}
