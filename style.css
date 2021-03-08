@@ -9,7 +9,6 @@
 .bg-celeste-chiaro{
     background-color: #f4f9fd;
     width: 100%;
-    height: 200px;
 }
 
 .bg-bianco{
@@ -63,6 +62,16 @@
 
 /* prima sezione */
 
+/* seconda sezione */
+
+.text-a{
+    text-align: center;
+}
+
+
+
+/* seconda sezione */
+
 
 
 
@@ -99,6 +108,10 @@
 
 .padding-20px{
     padding: 20px;
+}
+
+.padding-50px{
+    padding: 50px;
 }
 
 .padding-top-50px{
@@ -150,3 +163,4 @@
 }
 
 /* bottoni */
+
