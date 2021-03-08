@@ -6,6 +6,18 @@
 
 /* immagini/colori background */
 
-.bg-celestechiaro{
+.bg-celeste-chiaro{
     background-color: #f4f9fd;
+    width: 100%;
+    height: 200px;
+}
+
+.bg-bianco{
+    background-color: white;
+    height: 200px;
+    width: 100%;
+}
+
+.ng-img{
+    background-image: url("img/jumbotron.png");
 }
