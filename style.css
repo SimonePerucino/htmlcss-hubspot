@@ -33,6 +33,9 @@
 
 /* immagini/colori background */
 
+
+
+
 /* prima sezione */
 
 /* hr prima sezione */
@@ -47,10 +50,14 @@
     width: 70%;
 }
 
+#scelta-lingua{
+    background-color: transparent;
+    border: none;
+    border-right: 1px solid gray;
+    vertical-align: middle;
+}
 
-
-
-
+/* prima sezione */
 
 
 
@@ -63,6 +70,9 @@
 }
 
 /* Margini */
+
+
+
 
 /* Padding */
 
@@ -82,9 +92,48 @@
     padding: 20px;
 }
 
-
+.padding-right-5px{
+    padding-right: 5px;
+}
 
 /* Padding */
 
 
 
+
+/* float e clearfix */
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-l{
+    float: left;
+}
+
+
+.float-r{
+    float: right;
+}
+
+/* float e clearfix */
+
+/* bottoni */
+
+.login-b{
+    background-color: white;
+    border-radius: 5px;
+    color: #fe775a;
+    border-color: #fe775a;
+}
+
+.orange-b{
+    background-color:#fe775a;
+    border-radius: 5px;
+    color: white;
+    border-color: #fe775a;
+}
+
+/* bottoni */
