@@ -19,14 +19,14 @@
 .bg-img{
     background-image: url("img/jumbotron.png");
     width: 100%;
-    height:770px;
+    height:970px;
     background-size: cover;
    }
 
 .bg-verde{
     background-color: #afebe4;
     width: 100%;
-    height: 190px;
+    height: 160px;
 }
 
 .bg-verde-a{
@@ -37,14 +37,18 @@
     background-color: #32495b;
 }
 
-/* immagini/colori background */
+.bg-red{
+    background-color: red;
+    height: 500px;
+}
 
+.bg-blue{
+    background-color: blue;
+}
 
 
 
 /* prima sezione */
-
-/* hr prima sezione */
 
 .prima-sezione hr{
     background-color: #33475b;
@@ -57,7 +61,7 @@
 }
 
 .wrapper-2{
-    width: 50%;
+    width: 42%;  
 }
 
 #scelta-lingua{
@@ -67,25 +71,10 @@
     vertical-align: middle;
 }
 
-/* prima sezione */
 
-/* seconda sezione */
-
-
-
-
-/* seconda sezione */
-
-
-/* terza sezione */
-
-.color-w{
-    color: white;
-}
-
-/* terza sezione */
 
 /* allineamenti */
+
 .text-a{
     text-align: center;
 }
@@ -97,8 +86,6 @@
 .vertical-at{
     vertical-align: top ;
 }
-/* allineamenti */
-
 
 
 
@@ -106,6 +93,10 @@
 
 .marg-a{
     margin:auto;
+}
+
+.margin-0{
+    margin: 0;
 }
 
 .margin-right-10px{
@@ -127,11 +118,9 @@
     margin-left: 2%;
 }
 
-
-
-/* Margini */
-
-
+.margin-top-200{
+    margin-top: 200px;
+}
 
 
 /* Padding */
@@ -164,10 +153,6 @@
     padding-right: 5px;
 }
 
-/* Padding */
-
-
-
 
 /* float e clearfix */
 
@@ -186,7 +171,7 @@
     float: right;
 }
 
-/* float e clearfix */
+
 
 /* bottoni */
 
@@ -211,7 +196,10 @@
     border-color: #fe775a;
 }
 
-/* bottoni */
+button{
+    margin: 10px;
+}
+
 
 
 /* width */
@@ -252,33 +240,24 @@
     width:60%;
 }
 
+.width-70{
+    width: 70%;
+}
+
 .width-100{
     width: 100%;
 }
 
-/* width */
 
 
-.bg-red{
-    background-color: red;
-    height: 500px;
+/* selettori avanzati */
+
+nav div > img{
+    vertical-align: middle;
 }
-
-.bg-blue{
-    background-color: blue;
-}
-
 
 .special-c .float-l{
     width: 25%;
-}
-
-.inline-b{
-    display: inline-block;
-}
-
-.border-right-w{
-    border-right: 1px solid white;
 }
 
 .bg-verde-a .special-c .clearfix:first-child{
@@ -291,4 +270,72 @@
 
 .bg-verde-a .special-c .border-br:last-child{
     border-right: transparent;
+}
+
+p{
+    margin: 10px 0;
+    line-height: 40px;
+    font-size: 23px;
+    color: gray;
+}
+
+
+h1{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+   
+}
+
+h2{
+    font-size: 40px;
+}
+    
+h3, h4{
+    font-size: 30px;
+}
+
+
+
+.wrapper-2 > button{
+    padding: 20px 40px;
+}
+
+
+/* altro */
+
+.inline-b{
+    display: inline-block;
+}
+
+.border-right-w{
+    border-right: 1px solid white;
+}
+
+/* height */
+
+.h-50{
+    height: 50px;
+}
+
+.lh-50{
+    line-height: 50px;
+}
+
+.h-100{
+    height: 100px;
+}
+
+.lh-100{
+    line-height: 100px;
+}
+
+/* position */
+
+.position-r{
+    position:relative;
+}
+
+.position-a{
+    position:absolute;
 }
